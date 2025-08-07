@@ -18,10 +18,10 @@ session_start();
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'esya');
+define('DB_NAME', 'esyabd');
 
-define('APP_NAME', 'Sistema de Gestión de Aspirantes');
-define('BASE_URL', 'http://localhost:8012/SisAsp/');
+define('APP_NAME', 'Sistema de Gestión de la ESyA');
+define('BASE_URL', 'http://localhost/sis-esya/');
 
 // Manejo de errores
 error_reporting(E_ALL);
