@@ -58,7 +58,7 @@ $result = $stmt->get_result();
 </head>
 
 <body>
-    <?php include '../../includes/header.php'; ?>
+    <?php include '../../includes/unified_header.php'; ?>
 
     <div class="container">
         <div class="module-header">
@@ -106,7 +106,7 @@ $result = $stmt->get_result();
         </table>
     </div>
 
-    <?php include '../../includes/footer.php'; ?>
+    <?php include '../../includes/unified_footer.php'; ?>
     <script src="../../assets/js/script.js"></script>
     <script src="../../assets/js/usuarios.js"></script>
 </body>

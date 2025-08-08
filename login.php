@@ -62,6 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo APP_NAME; ?> - Login</title>
     <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/unified_header_footer.css">
     <link rel="stylesheet" href="assets/css/inicio.css">
     <style>
         body {
@@ -283,7 +284,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 
-    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/unified_footer.php'; ?>
 </body>
 
 </html>

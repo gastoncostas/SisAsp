@@ -24,7 +24,7 @@ $conn = $db->getConnection();
 </head>
 
 <body>
-    <?php include '../../includes/header.php'; ?>
+    <?php include '../../includes/unified_header.php'; ?>
 
     <div class="container">
         <div class="module-header">
@@ -82,7 +82,7 @@ $conn = $db->getConnection();
         </table>
     </div>
 
-    <?php include '../../includes/footer.php'; ?>
+    <?php include '../../includes/unified_footer.php'; ?>
     <script src="../../assets/js/script.js"></script>
 </body>
 

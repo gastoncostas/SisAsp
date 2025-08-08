@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <?php include '../../includes/header.php'; ?>
+    <?php include '../../includes/unified_header.php'; ?>
 
     <div class="container">
         <h1>Registro de Asistencia</h1>
@@ -115,7 +115,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
     </div>
 
-    <?php include '../../includes/footer.php'; ?>
+    <?php include '../../includes/unified_footer.php'; ?>
 </body>
 
 </html>

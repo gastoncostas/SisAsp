@@ -89,8 +89,8 @@ Inicio
 │   ├── config.php             # Configuración general
 │   ├── database.php           # Conexión a BD
 │   ├── auth.php               # Autenticación
-│   ├── header.php             # Header común
-│   └── footer.php             # Footer común
+│   ├── unified_header.php             # Header común
+│   └── unified_footer.php             # Footer común
 ├── modules/
 │   ├── aspirantes/            # Gestión de aspirantes
 │   ├── asistencia/            # Control de asistencia

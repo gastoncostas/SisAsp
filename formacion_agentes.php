@@ -10,6 +10,7 @@ require_once 'includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo APP_NAME; ?> - Formación de Agentes</title>
     <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/unified_header_footer.css">
     <link rel="stylesheet" href="assets/css/inicio.css">
 </head>
 
@@ -62,7 +63,7 @@ require_once 'includes/config.php';
         </div>
     </main>
 
-    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/unified_footer.php'; ?>
 
     <script>
         // Efecto hover para las tarjetas activas

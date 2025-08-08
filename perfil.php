@@ -86,10 +86,11 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars(APP_NAME); ?> - Mi Perfil</title>
     <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/unified_header_footer.css">
 </head>
 
 <body>
-    <?php include 'includes/header.php'; ?>
+    <?php include 'includes/unified_header.php'; ?>
 
     <div class="container">
         <h1>Mi Perfil</h1>
@@ -139,7 +140,7 @@ try {
         </form>
     </div>
 
-    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/unified_footer.php'; ?>
 </body>
 
 </html>
