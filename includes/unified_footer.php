@@ -13,12 +13,6 @@ if (class_exists('Auth')) {
     }
 }
 
-// Información de contacto y enlaces
-$contact_info = [
-    'address' => 'Av. Independencia 1234, San Miguel de Tucumán',
-    'phone' => '+54 381 123-4567',
-    'email' => 'esya@policia.tucuman.gov.ar'
-];
 
 $quick_links = [
     'Inicio' => defined('BASE_URL') ? BASE_URL . 'inicio.php' : '/inicio.php',
@@ -53,17 +47,6 @@ if ($is_system_page) {
                 </div>
 
                 <div class="footer-section">
-                    <h3>Contacto</h3>
-                    <ul>
-                        <li>📍 <?php echo htmlspecialchars($contact_info['address']); ?></li>
-                        <li>📞 <?php echo htmlspecialchars($contact_info['phone']); ?></li>
-                        <li>✉️ <a href="mailto:<?php echo htmlspecialchars($contact_info['email']); ?>">
-                                <?php echo htmlspecialchars($contact_info['email']); ?>
-                            </a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
                     <h3>Información del Sistema</h3>
                     <ul>
                         <li>Versión: 2.0</li>
@@ -80,39 +63,6 @@ if ($is_system_page) {
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Policía de Tucumán</h3>
-                    <p>Jefatura de Educación y Capacitación</p>
-                    <p>Formando profesionales comprometidos con la seguridad y el servicio a la comunidad.</p>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Contacto</h3>
-                    <ul>
-                        <li>📍 <?php echo htmlspecialchars($contact_info['address']); ?></li>
-                        <li>📞 <?php echo htmlspecialchars($contact_info['phone']); ?></li>
-                        <li>✉️ <a href="mailto:<?php echo htmlspecialchars($contact_info['email']); ?>">
-                                <?php echo htmlspecialchars($contact_info['email']); ?>
-                            </a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Enlaces</h3>
-                    <ul>
-                        <li><a href="<?php echo htmlspecialchars($quick_links['Inicio']); ?>">Inicio</a></li>
-                        <li><a href="<?php echo htmlspecialchars($quick_links['Formación de Agentes']); ?>">Formación de Agentes</a></li>
-                        <li><a href="#" onclick="return false;" style="opacity: 0.6;">Portal Web Oficial</a></li>
-                        <li><a href="#" onclick="return false;" style="opacity: 0.6;">Mesa de Ayuda</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Institución</h3>
-                    <ul>
-                        <li>Escuela de Suboficiales y Agentes</li>
-                        <li>Sistema de Gestión Académica</li>
-                        <li>Versión <?php echo $current_year; ?></li>
-                        <li>Estado: <span style="color: #27ae60;">✓ Operativo</span></li>
-                    </ul>
                 </div>
             </div>
         <?php endif; ?>
@@ -120,9 +70,6 @@ if ($is_system_page) {
         <div class="footer-bottom">
             <p>&copy; <?php echo $current_year; ?> Policía de Tucumán - Escuela de Suboficiales y Agentes. Todos los derechos reservados.</p>
             <?php if ($is_system_page): ?>
-                <p>Sistema desarrollado para la gestión académica interna | Versión 2.0 |
-                    <a href="#" onclick="showSystemInfo(); return false;" style="color: #3498db;">Info del Sistema</a>
-                </p>
             <?php else: ?>
                 <p>Jefatura de Educación y Capacitación - Formando el futuro de la seguridad</p>
             <?php endif; ?>
