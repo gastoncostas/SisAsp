@@ -26,6 +26,13 @@ while ($row = $result->fetch_assoc()) {
     $aspirantes[$row['id']] = $row['apellido'] . ', ' . $row['nombre'] . ' (' . $row['dni'] . ')';
 }
 
+
+
+
+
+
+
+
 // Procesar formulario de asistencia
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $materia_id = $_POST['materia_id'];
@@ -57,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <?php include '../../includes/unified_header.php'; ?>
+    <?php include '../../includes/header.php'; ?>
 
     <div class="container">
         <h1>Registro de Asistencia</h1>
@@ -115,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
     </div>
 
-    <?php include '../../includes/unified_footer.php'; ?>
+    <?php include '../../includes/footer.php'; ?>
 </body>
 
 </html>

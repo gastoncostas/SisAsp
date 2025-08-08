@@ -34,27 +34,13 @@ if ($is_system_page) {
                 <div class="footer-section">
                     <h3>Sistema ESyA</h3>
                     <p>Sistema integral de gestión para la Escuela de Suboficiales y Agentes de la Policía de Tucumán.</p>
-                    <p>Desarrollado para optimizar la administración académica y el seguimiento de aspirantes.</p>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Accesos Rápidos</h3>
-                    <ul>
-                        <?php foreach ($quick_links as $text => $url): ?>
-                            <li><a href="<?php echo htmlspecialchars($url); ?>"><?php echo htmlspecialchars($text); ?></a></li>
-                        <?php endforeach; ?>
-                    </ul>
                 </div>
 
                 <div class="footer-section">
                     <h3>Información del Sistema</h3>
                     <ul>
-                        <li>Versión: 2.0</li>
-                        <li>Última actualización: Agosto <?php echo $current_year; ?></li>
+                        <li>Versión: 1.0</li>
                         <li>Estado: <span class="system-status"></span>Activo</li>
-                        <?php if (defined('APP_NAME')): ?>
-                            <li>Plataforma: <?php echo htmlspecialchars(APP_NAME); ?></li>
-                        <?php endif; ?>
                     </ul>
                 </div>
             </div>
