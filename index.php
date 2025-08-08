@@ -6,10 +6,10 @@ $auth = new Auth();
 
 // Comportamiento inteligente:
 // - Si está logueado, va al dashboard
-// - Si no está logueado, va al login
+// - Si no está logueado, va a la página de inicio
 if ($auth->isLoggedIn()) {
     header("Location: dashboard.php");
 } else {
-    header("Location: login.php");
+    header("Location: inicio.php");
 }
 exit();
