@@ -438,7 +438,7 @@ $GLOBALS['page_subtitle'] = 'Jefatura de Educación y Capacitación';
         <div class="container">
             <div class="welcome-section floating">
                 <h1>Bienvenido al Sistema de Gestión</h1>
-                <p>Seleccione el área a la que desea acceder para comenzar a utilizar nuestros servicios especializados</p>
+                <p>Seleccione el área a la que desea acceder para comenzar a navegar a través del sistema.</p>
             </div>
 
             <div class="navigation-cards">
@@ -447,7 +447,7 @@ $GLOBALS['page_subtitle'] = 'Jefatura de Educación y Capacitación';
                         <i class="icon-education"></i>
                     </div>
                     <h3>Formación de Agentes</h3>
-                    <p>Sistema integral de formación y capacitación del personal policial. Acceso completo a la gestión académica de la Escuela de Suboficiales y Agentes.</p>
+                    <p>Acceso completo a la gestión académica de la Escuela de Suboficiales y Agentes.</p>
                     <a href="formacion_agentes.php" class="btn btn-primary btn-large">Ingresar al Sistema</a>
                 </div>
 
@@ -458,26 +458,6 @@ $GLOBALS['page_subtitle'] = 'Jefatura de Educación y Capacitación';
                     <h3>División Capacitaciones</h3>
                     <p>Sistema avanzado de gestión de capacitaciones y cursos especializados para el desarrollo profesional continuo.</p>
                     <a href="#" class="btn btn-secondary btn-large" onclick="showComingSoon(); return false;">Próximamente</a>
-                </div>
-            </div>
-
-            <!-- Información adicional -->
-            <div style="text-align: center; margin-top: 60px; padding: 30px; background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(10px); border-radius: 15px;">
-                <h3 style="color: #2c3e50; margin-bottom: 15px;">Información del Sistema</h3>
-                <p style="color: #7f8c8d; margin-bottom: 20px;">Sistema desarrollado para la Policía de Tucumán</p>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 600px; margin: 0 auto;">
-                    <div>
-                        <strong style="color: #3498db;">Versión</strong><br>
-                        <span style="color: #7f8c8d;">v2.0 - 2025</span>
-                    </div>
-                    <div>
-                        <strong style="color: #3498db;">Estado</strong><br>
-                        <span style="color: #27ae60;">🟢 Operativo</span>
-                    </div>
-                    <div>
-                        <strong style="color: #3498db;">Soporte</strong><br>
-                        <span style="color: #7f8c8d;">24/7 Disponible</span>
-                    </div>
                 </div>
             </div>
         </div>
